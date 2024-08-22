@@ -1,4 +1,4 @@
-package com.lakshy.blog.controllers;
+package com.Sajal.blog.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lakshy.blog.payloads.ApiResponse;
-import com.lakshy.blog.payloads.CommentDto;
-import com.lakshy.blog.services.CommentService;
+import com.Sajal.blog.payloads.ApiResponse;
+import com.Sajal.blog.payloads.CommentDto;
+import com.Sajal.blog.services.CommentService;
 
 @RestController
 @RequestMapping("/api")

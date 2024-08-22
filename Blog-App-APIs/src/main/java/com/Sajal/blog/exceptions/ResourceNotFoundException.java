@@ -1,4 +1,4 @@
-package com.lakshy.blog.exceptions;
+package com.Sajal.blog.exceptions;
 
 import lombok.Getter;
 import lombok.Setter;

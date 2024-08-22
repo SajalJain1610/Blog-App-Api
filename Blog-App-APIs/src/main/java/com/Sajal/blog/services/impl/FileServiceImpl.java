@@ -1,20 +1,14 @@
-package com.lakshy.blog.services.impl;
+package com.Sajal.blog.services.impl;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.UUID;
-
+import com.Sajal.blog.exceptions.IncorrectFileFormatException;
+import com.Sajal.blog.services.FileService;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.lakshy.blog.exceptions.IncorrectFileFormatException;
-import com.lakshy.blog.exceptions.ResourceNotFoundException;
-import com.lakshy.blog.services.FileService;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.UUID;
 
 @Service
 public class FileServiceImpl implements FileService {

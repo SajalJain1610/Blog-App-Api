@@ -1,10 +1,10 @@
-package com.lakshy.blog.payloads;
+package com.Sajal.blog.payloads;
 
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.lakshy.blog.entities.Comment;
+import com.Sajal.blog.entities.Comment;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

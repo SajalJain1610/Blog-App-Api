@@ -1,4 +1,4 @@
-package com.lakshy.blog.exceptions;
+package com.Sajal.blog.exceptions;
 
 public class ApiException extends RuntimeException {
 

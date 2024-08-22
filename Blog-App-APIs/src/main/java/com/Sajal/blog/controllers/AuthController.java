@@ -1,11 +1,16 @@
-package com.lakshy.blog.controllers;
+package com.Sajal.blog.controllers;
 
+import com.Sajal.blog.exceptions.ApiException;
+import com.Sajal.blog.payloads.JwtAuthRequest;
+import com.Sajal.blog.payloads.JwtAuthResponse;
+import com.Sajal.blog.payloads.UserDto;
+import com.Sajal.blog.security.JwtTokenHelper;
+import com.Sajal.blog.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -13,13 +18,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.lakshy.blog.exceptions.ApiException;
-import com.lakshy.blog.payloads.JwtAuthRequest;
-import com.lakshy.blog.payloads.JwtAuthResponse;
-import com.lakshy.blog.payloads.UserDto;
-import com.lakshy.blog.security.JwtTokenHelper;
-import com.lakshy.blog.services.UserService;
 
 @RestController
 @RequestMapping("/api/v1/auth")

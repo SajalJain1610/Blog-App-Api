@@ -1,4 +1,4 @@
-package com.lakshy.blog.services.impl;
+package com.Sajal.blog.services.impl;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -7,11 +7,11 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.lakshy.blog.entities.Category;
-import com.lakshy.blog.exceptions.ResourceNotFoundException;
-import com.lakshy.blog.payloads.CategoryDto;
-import com.lakshy.blog.repositories.CategoryRepo;
-import com.lakshy.blog.services.CategoryService;
+import com.Sajal.blog.entities.Category;
+import com.Sajal.blog.exceptions.ResourceNotFoundException;
+import com.Sajal.blog.payloads.CategoryDto;
+import com.Sajal.blog.repositories.CategoryRepo;
+import com.Sajal.blog.services.CategoryService;
 
 @Service
 public class CategoryServiceImpl implements CategoryService {

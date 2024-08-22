@@ -1,4 +1,4 @@
-package com.lakshy.blog.payloads;
+package com.Sajal.blog.payloads;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

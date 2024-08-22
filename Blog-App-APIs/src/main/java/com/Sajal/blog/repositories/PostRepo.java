@@ -1,4 +1,4 @@
-package com.lakshy.blog.repositories;
+package com.Sajal.blog.repositories;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.lakshy.blog.entities.Category;
-import com.lakshy.blog.entities.Post;
-import com.lakshy.blog.entities.User;
+import com.Sajal.blog.entities.Category;
+import com.Sajal.blog.entities.Post;
+import com.Sajal.blog.entities.User;
 
 public interface PostRepo extends JpaRepository<Post, Integer> {
 

@@ -1,4 +1,4 @@
-package com.lakshy.blog.controllers;
+package com.Sajal.blog.controllers;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -25,12 +25,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.lakshy.blog.config.AppConstants;
-import com.lakshy.blog.payloads.ApiResponse;
-import com.lakshy.blog.payloads.PostDto;
-import com.lakshy.blog.payloads.PostResponse;
-import com.lakshy.blog.services.FileService;
-import com.lakshy.blog.services.PostService;
+import com.Sajal.blog.config.AppConstants;
+import com.Sajal.blog.payloads.ApiResponse;
+import com.Sajal.blog.payloads.PostDto;
+import com.Sajal.blog.payloads.PostResponse;
+import com.Sajal.blog.services.FileService;
+import com.Sajal.blog.services.PostService;
 
 @RestController
 @RequestMapping("/api")

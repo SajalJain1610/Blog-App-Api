@@ -1,8 +1,8 @@
-package com.lakshy.blog.repositories;
+package com.Sajal.blog.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.lakshy.blog.entities.Category;
+import com.Sajal.blog.entities.Category;
 
 public interface CategoryRepo extends JpaRepository<Category, Integer> {
 

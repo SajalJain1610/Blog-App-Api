@@ -1,4 +1,4 @@
-package com.lakshy.blog.config;
+package com.Sajal.blog.config;
 
 import java.util.Collection;
 import java.util.Collections;

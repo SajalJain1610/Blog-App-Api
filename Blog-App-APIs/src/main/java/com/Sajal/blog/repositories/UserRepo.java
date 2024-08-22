@@ -1,10 +1,10 @@
-package com.lakshy.blog.repositories;
+package com.Sajal.blog.repositories;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.lakshy.blog.entities.User;
+import com.Sajal.blog.entities.User;
 
 public interface UserRepo extends JpaRepository<User, Integer> 
 {

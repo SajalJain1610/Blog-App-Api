@@ -1,4 +1,4 @@
-package com.lakshy.blog.exceptions;
+package com.Sajal.blog.exceptions;
 
 public class IncorrectFileFormatException extends RuntimeException {
 	String fileType;

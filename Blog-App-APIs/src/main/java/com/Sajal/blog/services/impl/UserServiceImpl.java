@@ -1,4 +1,4 @@
-package com.lakshy.blog.services.impl;
+package com.Sajal.blog.services.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,14 +10,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.lakshy.blog.exceptions.ResourceNotFoundException;
-import com.lakshy.blog.config.AppConstants;
-import com.lakshy.blog.entities.Role;
-import com.lakshy.blog.entities.User;
-import com.lakshy.blog.payloads.UserDto;
-import com.lakshy.blog.repositories.RoleRepo;
-import com.lakshy.blog.repositories.UserRepo;
-import com.lakshy.blog.services.UserService;
+import com.Sajal.blog.exceptions.ResourceNotFoundException;
+import com.Sajal.blog.config.AppConstants;
+import com.Sajal.blog.entities.Role;
+import com.Sajal.blog.entities.User;
+import com.Sajal.blog.payloads.UserDto;
+import com.Sajal.blog.repositories.RoleRepo;
+import com.Sajal.blog.repositories.UserRepo;
+import com.Sajal.blog.services.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

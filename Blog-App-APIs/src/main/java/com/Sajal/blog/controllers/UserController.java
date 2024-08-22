@@ -1,4 +1,4 @@
-package com.lakshy.blog.controllers;
+package com.Sajal.blog.controllers;
 
 import java.util.List;
 
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lakshy.blog.payloads.ApiResponse;
-import com.lakshy.blog.payloads.UserDto;
-import com.lakshy.blog.services.UserService;
+import com.Sajal.blog.payloads.ApiResponse;
+import com.Sajal.blog.payloads.UserDto;
+import com.Sajal.blog.services.UserService;
 
 @RestController
 @RequestMapping("/api/users")

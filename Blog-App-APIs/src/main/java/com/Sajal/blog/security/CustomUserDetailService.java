@@ -1,4 +1,4 @@
-package com.lakshy.blog.security;
+package com.Sajal.blog.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -6,9 +6,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.lakshy.blog.entities.User;
-import com.lakshy.blog.exceptions.ResourceNotFoundException;
-import com.lakshy.blog.repositories.UserRepo;
+import com.Sajal.blog.entities.User;
+import com.Sajal.blog.exceptions.ResourceNotFoundException;
+import com.Sajal.blog.repositories.UserRepo;
 
 @Service
 public class CustomUserDetailService implements UserDetailsService {

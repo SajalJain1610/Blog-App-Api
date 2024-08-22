@@ -1,6 +1,6 @@
-package com.lakshy.blog.services;
+package com.Sajal.blog.services;
 
-import com.lakshy.blog.payloads.CommentDto;
+import com.Sajal.blog.payloads.CommentDto;
 
 public interface CommentService {
 	

@@ -1,18 +1,18 @@
-package com.lakshy.blog.services.impl;
+package com.Sajal.blog.services.impl;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.lakshy.blog.entities.Comment;
-import com.lakshy.blog.entities.Post;
-import com.lakshy.blog.entities.User;
-import com.lakshy.blog.exceptions.ResourceNotFoundException;
-import com.lakshy.blog.payloads.CommentDto;
-import com.lakshy.blog.repositories.CommentRepo;
-import com.lakshy.blog.repositories.PostRepo;
-import com.lakshy.blog.repositories.UserRepo;
-import com.lakshy.blog.services.CommentService;
+import com.Sajal.blog.entities.Comment;
+import com.Sajal.blog.entities.Post;
+import com.Sajal.blog.entities.User;
+import com.Sajal.blog.exceptions.ResourceNotFoundException;
+import com.Sajal.blog.payloads.CommentDto;
+import com.Sajal.blog.repositories.CommentRepo;
+import com.Sajal.blog.repositories.PostRepo;
+import com.Sajal.blog.repositories.UserRepo;
+import com.Sajal.blog.services.CommentService;
 
 @Service
 public class CommentServiceImpl implements CommentService {

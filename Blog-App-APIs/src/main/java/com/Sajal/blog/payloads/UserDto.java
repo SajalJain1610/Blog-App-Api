@@ -1,4 +1,4 @@
-package com.lakshy.blog.payloads;
+package com.Sajal.blog.payloads;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -10,7 +10,7 @@ import javax.validation.constraints.Size;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;
-import com.lakshy.blog.entities.Role;
+import com.Sajal.blog.entities.Role;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

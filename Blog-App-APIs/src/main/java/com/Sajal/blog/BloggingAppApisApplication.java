@@ -1,7 +1,8 @@
-package com.lakshy.blog;
+package com.Sajal.blog;
 
-import java.util.List;
-
+import com.Sajal.blog.config.AppConstants;
+import com.Sajal.blog.entities.Role;
+import com.Sajal.blog.repositories.RoleRepo;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -10,9 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.lakshy.blog.config.AppConstants;
-import com.lakshy.blog.entities.Role;
-import com.lakshy.blog.repositories.RoleRepo;
+import java.util.List;
 
 @SpringBootApplication
 public class BloggingAppApisApplication implements CommandLineRunner {

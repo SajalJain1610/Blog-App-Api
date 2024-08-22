@@ -1,4 +1,4 @@
-package com.lakshy.blog.config;
+package com.Sajal.blog.config;
 
 // All constants and hard coded values
 public class AppConstants {

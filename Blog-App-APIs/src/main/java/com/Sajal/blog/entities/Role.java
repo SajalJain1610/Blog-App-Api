@@ -1,4 +1,4 @@
-package com.lakshy.blog.entities;
+package com.Sajal.blog.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

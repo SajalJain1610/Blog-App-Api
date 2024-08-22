@@ -1,8 +1,8 @@
-package com.lakshy.blog.services;
+package com.Sajal.blog.services;
+
+import com.Sajal.blog.payloads.CategoryDto;
 
 import java.util.List;
-
-import com.lakshy.blog.payloads.CategoryDto;
 
 public interface CategoryService {
 

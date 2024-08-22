@@ -1,9 +1,6 @@
-package com.lakshy.blog.exceptions;
+package com.Sajal.blog.exceptions;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import com.Sajal.blog.payloads.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
@@ -13,7 +10,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
-import com.lakshy.blog.payloads.ApiResponse;
+import java.util.HashMap;
+import java.util.Map;
 
 // will run for all exceptions which may come for all controller classes
 @RestControllerAdvice

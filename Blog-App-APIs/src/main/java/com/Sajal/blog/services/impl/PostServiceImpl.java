@@ -1,9 +1,15 @@
-package com.lakshy.blog.services.impl;
+package com.Sajal.blog.services.impl;
 
-import java.util.Date;
-import java.util.List;
-import java.util.stream.Collectors;
-
+import com.Sajal.blog.entities.Category;
+import com.Sajal.blog.entities.Post;
+import com.Sajal.blog.entities.User;
+import com.Sajal.blog.exceptions.ResourceNotFoundException;
+import com.Sajal.blog.payloads.PostDto;
+import com.Sajal.blog.payloads.PostResponse;
+import com.Sajal.blog.repositories.CategoryRepo;
+import com.Sajal.blog.repositories.PostRepo;
+import com.Sajal.blog.repositories.UserRepo;
+import com.Sajal.blog.services.PostService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -12,16 +18,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.lakshy.blog.entities.Category;
-import com.lakshy.blog.entities.Post;
-import com.lakshy.blog.entities.User;
-import com.lakshy.blog.exceptions.ResourceNotFoundException;
-import com.lakshy.blog.payloads.PostDto;
-import com.lakshy.blog.payloads.PostResponse;
-import com.lakshy.blog.repositories.CategoryRepo;
-import com.lakshy.blog.repositories.PostRepo;
-import com.lakshy.blog.repositories.UserRepo;
-import com.lakshy.blog.services.PostService;
+import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
 
 
 @Service

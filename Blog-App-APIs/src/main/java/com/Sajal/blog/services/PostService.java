@@ -1,9 +1,9 @@
-package com.lakshy.blog.services;
+package com.Sajal.blog.services;
+
+import com.Sajal.blog.payloads.PostDto;
+import com.Sajal.blog.payloads.PostResponse;
 
 import java.util.List;
-
-import com.lakshy.blog.payloads.PostDto;
-import com.lakshy.blog.payloads.PostResponse;
 
 public interface PostService {
 	
